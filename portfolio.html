@@ -1,49 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Portfolio</title>
-	<style type="text/css"></style>
-	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <meta charset="utf-8">
+    <title>My Portfolio</title> 
+    <!--Write html code for a simple portfolio website using Bootswatch: Cerulean theme -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/boostrapstyle.css" media="screen">
 </head>
 <body>
-	<header id="mainHeader">
-	<h1 id="header">Dr. Angus Ogubuike</h1>
-		<nav>
-		<a href="index.html">About</a> |
-		<a href="portfolio.html">Portfolio</a> |
-		<a href="contact.html">Contact</a> |
-	</nav>
-	</header>
-	<br>
-	<section id="mainSection">
-	<div id="subSection">
-		<h2 id="BodyHeading">Portfolio</h2>
-		<hr>
-	<figure>		
-	<img class="portfolioPic" src="assets\images\Basket_Ball.jpg" alt="My Hobby">
-	<img class="portfolioPic" src="assets\images\Book.jpg" alt="My Pasttime">
-	<img class="portfolioPic" src="assets\images\Free_Art.jpg" alt="My Graphic">
-	<img class="portfolioPic" src="assets\images\Painting.jpg" alt="My Design">
-	<img class="portfolioPic" src="assets\images\School_boy.jpg" alt="My Philosophy">
-	<img class="portfolioPic" src="assets\images\Hard_work.jpg" alt="My Hardwork">
-	</figure>
-	</div>
-		<aside>
-		<h3 id="connect1">Connect with Me</h3>
-		<a href="https://github.com/druchefavour">
-		<img class="connect" src="assets\images\github.png" alt="github Page">
-		</a>
-		<a href="https://www.linkedin.com/in/angusdruche/">
-		<img class="connect" src="assets\images\linked_in.png" alt="linkedIn Page">
-		</a>
-		<a href="http://stackoverflow.com/users/6937888/dr-angus-uche-ogubuike">
-		<img class="connect" src="assets\images\stackoverflow.png" alt="stackoverflow Page">
-		</a>
-		</aside>
-	</section>
-		<footer>
-		<p>@ Copyright 2016 Dr. Angus Ogubuike</p>
-		<br>
-		</footer>
+<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">DR ANGUS OGUBUIKE</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">About</a>
+            </li>
+            
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio" id="themes">Portfolio<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="divider"></li>
+                <li><a href="#/BasketBall/">BasketBall</a></li>
+                <li><a href="#/Book/">Book</a></li>
+                <li><a href="#/FreeArt/">FreeArt</a></li>
+                <li><a href="#/HardWork/">HardWork</a></li>
+                <li><a href="#/Painting/">Painting</a></li>
+                <li><a href="#/SchoolBoy/">SchoolBoy</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  
+            <div class="row">           
+            <div class="col-lg-12">
+            <div class="page-header">
+            <h3 id="typography">Portfolio</h3>
+            </div>
+            </div> 
+            </div>   
+
+            <div class="row">
+                <div class="bs-component">
+                    <div class="bs-docs-section">
+                          <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\Basket_Ball.jpg" alt="My Hobby" width="204" height="176">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\Book.jpg" alt="My Pasttime" width="204" height="176">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\Free_Art.jpg" alt="My Graphic" width="204" height="176">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\Painting.jpg" alt="My Design" width="204" height="176">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\School_boy.jpg" alt="My Philosophy" width="204" height="176"> 
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="thumbnail" src="assets\images\Hard_work.jpg" alt="My Hardwork" width="204" height="176">
+                                </div>
+                            </div> 
+                            <div class="progress">
+                         <div class="progress-bar progress-bar-striped active" role="progressbar"
+                         aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                         40%
+                          </div>    
+                         </div>
+                         </div>         
+
+                    <div class="col-lg-4">
+                        <div class="row">
+                        <h3>Connect with Me</h3>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a href="https://github.com/druchefavour">
+                                <img class="thumbnail" src="assets\images\github.png" alt="github Page" width="84" height="76">
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://www.linkedin.com/in/angusdruche/">
+                                <img class="thumbnail" src="assets\images\linked_in.png" alt="linkedIn Page" width="84" height="76">
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="http://stackoverflow.com/users/6937888/dr-angus-uche-ogubuike">
+                                <img class="thumbmail" src="assets\images\stackoverflow.png" alt="stackoverflow Page" width="84" height="76">
+                                </a>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        
+      
+        <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>@ Copyright 2016 Dr. Angus Ogubuike. Contact him at <a href="mailto:druchefavour@gmail.com">druchefavour@gmail.com</a></p>
+        </div>
+        </div>
+      </footer>
 </body>
 </html>
