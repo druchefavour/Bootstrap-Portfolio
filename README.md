@@ -25,7 +25,7 @@ This app applies a ton of material learned about: HTML/CSS, GitHub, Heroku and B
 [My Profile](https://angusog.herokuapp.com)
 
 * Create the index.php and composer.json inside Bootstrap-Portfolio
-  ** Inside index.php we must have <?php include_once("yourFileNameHere"); ?> and inside the composer.json file we must have {}.
+  * Inside index.php we must have <?php include_once("yourFileNameHere"); ?> and inside the composer.json file we must have {}.
 
 * Deploy the new Bootstrap-powered portfolio to Heroku. 
 
