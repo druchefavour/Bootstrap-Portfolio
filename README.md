@@ -13,7 +13,7 @@ This app applies a ton of material learned about: HTML/CSS, GitHub, Heroku and B
 
 * Clone the repository unto local computer.
 
-* Copy the contents of Responsive-Portfolio [Responsive-Layout](https://drangusmobile.herokuapp.com)and paste the mentioned files into Bootstrap-Portfolio.
+* Copy the contents of Responsive-Portfolio [Responsive-Layout](https://drangusmobile.herokuapp.com) and paste the mentioned files into Bootstrap-Portfolio.
 
 * Inside the Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
 
@@ -30,6 +30,6 @@ This app applies a ton of material learned about: HTML/CSS, GitHub, Heroku and B
 * Deploy the new Bootstrap-powered portfolio to Heroku. 
 
 * Do this:
-	 ** heroku login
-     ** heroku create
-     ** git push heroku master
+	* heroku login
+    * heroku create
+    * git push heroku master
